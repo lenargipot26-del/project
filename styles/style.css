@@ -1,0 +1,41 @@
+.list {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.item a {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    color: #333649;
+    text-decoration: none;
+    border-radius: 35px;
+    border: 2px solid #333649;
+    padding: 5px;
+    font-size:16px;
+}
+
+.nav{
+    display: inline-flex;
+}
+
+body {
+    background-color: #EFF1FE;
+}
+
+.section h1 {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 214px;
+    line-height: 100%;
+    text-align: left;
+    color: #333649;
+}
+
+.list h4 {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: left;
+    color: #333649;
+}
