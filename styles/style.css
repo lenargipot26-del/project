@@ -35,3 +35,442 @@ body {
     line-height: 100%;
     font-weight: 300;
 }
+
+.section p {
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 300;
+}
+
+.section a {
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    border-radius: 35px;
+    background-color: #0019FF;
+    border: none;
+    padding: 5px;
+}
+
+.section a {
+    text-decoration: none;
+    color: #EFF1FE;
+}
+
+.arrow {
+    border-radius: 35px;
+    background-color: #0019FF;
+    border: none;
+    padding: 5px;
+    color: #EFF1FE;
+}
+
+.features {
+    background-color: #B3CDFF;
+    border-radius: 29px;
+}
+
+.vitrina h2 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.catalog h2 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.catalog p {
+    font-family: 'Onest', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.statistics h2 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.statistics p {
+    font-family: 'Onest', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.block h2 {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 100%;
+    text-align: center;
+    color: #575C7D;
+}
+
+.choice h2 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.choice h3 {
+    font-family: 'Onest', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #333649;
+}
+
+.choice p {
+    font-family: 'Onest', sans-serif;
+    color: #575C7D;
+    font-weight: 300;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 26px;
+    padding: 6px;
+    background-color: #B3CDFF;
+    display: inline-block;
+}
+
+.choice h4 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+    color: #333649;
+}
+
+.choice h5 {
+    font-family: 'Onest', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #575C7D;
+    opacity: 50%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B3CDFF;
+    border-radius: 34px;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: transform 0.8s;
+}
+
+input:checked+.slider::before {
+    transform: translateX(26px);
+}
+
+.period h2 {
+    font-family: 'Onest', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-align: right;
+    color: #333649;
+}
+
+.starting {
+    list-style-type: none;
+    border-radius: 30px;
+    background-color: #F7F8FF;
+    padding: 40px;
+    display: inline-block;
+}
+
+.rate-item {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #575C7D;
+}
+
+.start {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: left;
+    color: #1C1C1C;
+}
+
+.items {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #333649;
+}
+
+.list-item {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #575C7D;
+    opacity: 100%;
+}
+
+.starting a {
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: #0019FF;
+    border: none;
+    padding: 6px 50px 6px 50px;
+    text-decoration: none;
+    color: #EFF1FE;
+}
+
+.base {
+    list-style-type: none;
+    border-radius: 30px;
+    background-color: #B3CDFF;
+    padding: 40px;
+    display: inline-block;
+}
+
+.rate-item-base {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #575C7D;
+}
+
+.start-base {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: left;
+    color: #1C1C1C;
+}
+
+.items-base {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #333649;
+}
+
+.list-item-base {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #575C7D;
+    opacity: 100%;
+}
+
+.base a {
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: #0019FF;
+    border: none;
+    padding: 6px 50px 6px 50px;
+    text-decoration: none;
+    color: #EFF1FE;
+}
+
+.benefit {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    border-radius: 15px;
+    background-color: #0019FF;
+    padding: 6px;
+    color: #EFF1FE;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.details {
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #0019FF;
+}
+
+.other {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 150px;
+    text-align: left;
+    color: #575C7D;
+}
+
+.email-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.name-input,
+.email-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #F7F8FF;
+    font-family: 'Onest', sans-serif, Arial, sans-serif;
+    font-weight: 400;
+    color: #575C7D;
+}
+
+.message-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 150px;
+    resize: vertical;
+    background-color: #F7F8FF;
+    font-family: 'Onest', sans-serif, Arial, sans-serif;
+    font-weight: 400;
+    color: #575C7D;
+}
+
+.submit-btn {
+    background-color: #0019FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.adapter {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 28px;
+    color: #575C7D;
+}
+
+.one {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: inline-flex;
+}
+
+.two {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: inline-flex;
+}
+
+.free {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: inline-flex;
+}
+
+.four {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: inline-flex;
+}
+
+.additional_information {
+    font-family: 'Onest', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #575C7D;
+}
+
+.nav__link_active {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #0019FF;
+}
+
+.nav a{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #333649;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contacts {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #333649;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  border-radius: 20px;
+  background-color: #EFF1FE;
+  border: 2px solid #333649;
+  padding:  20px 80px 20px 80px;
+}
+
+.footer-link {
+  color: #0019FF;
+  text-decoration: none;
+  font-family: 'Onest', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
