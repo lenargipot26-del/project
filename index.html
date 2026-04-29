@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="conteiner">
         <nav class="nav">
-            <a href="/"><img src="images/nazv.svg" alt="Витрина грам"></a>
             <ul class="list">
+                <a href="/"><img src="images/nazv.svg" alt="Витрина грам"></a>
                 <li class="item"><a href="123">Как создать магазин</a></li>
                 <li class="item"><a href="123">Как продавать в Telegram</a></li>
                 <li class="item"><a href="123">FAQ</a></li>
@@ -23,17 +23,24 @@
         </nav>
     </header>
 
-    <main>
+    <main class="conteiner">
         <section class="section">
-            <h1>VitrinaGram</h1>
-            <img src="images/tovar.png" alt="Загрузите фото товара" width="150" height="450">
-            <img src="images/phone1.png" alt="Телефон" width="950" height="550">
-            <img src="images/sloganpokrugu.svg" alt="Продавай покажи">
-            <h2><br>Уникальный<br>Магазин в твоём<br>telegram-канале</h2>
-            <a href="123">Создать магазин</a>
-            <img class="arrow" src="images/strelkaotvnavopr.svg" alt="Стрелка">
-            <p>40% владельцев каналов<br>в Телеграмме зарабатывают <br> на продаже товаров каждый день</p>
-            <img src="images/zvezdochka.svg" alt="Звездочка" width="15" height="15">
+            <div class="apanel">
+                <h1>VitrinaGram</h1>
+            </div>
+            <div class="seller">
+                <img class="sell" src="images/sloganpokrugu.svg" alt="Продавай покажи">
+                <img class="download" src="images/tovar.png" alt="Загрузите фото товара" width="178" height="489">
+                <img class="phoness" src="images/phone1.png" alt="Телефон" width="1500" height="900">
+            </div>
+            <div class="panel">
+                <h2><br>Уникальный<br>Магазин в твоём<br>telegram-канале</h2>
+                <a href="123">Создать магазин</a>
+                <img class="arrow" src="images/strelkaotvnavopr.svg" alt="Стрелка">
+                <p>40% владельцев каналов<br>в Телеграмме зарабатывают <br> на продаже товаров каждый день</p>
+                <img src="images/zvezdochka.svg" alt="Звездочка" width="15" height="15">
+            </div>
+            </div>
         </section>
 
         <section class="features">
@@ -139,30 +146,40 @@
 
     </main>
 
-    <footer class="questions">
+    <footer class="conteiner">
         <h1 class="other">Остались <br> вопросы?</h1>
         <div class="email-form">
             <input class="name-input" type="text" name="username" placeholder="Ваше имя">
             <input class="email-input" type="email" name="email" placeholder="Email">
             <textarea class="message-input" name="message" placeholder="Введите сообщение"></textarea>
-            <button class="submit-btn" type="submit">Отправить</button>
+            <button class="submit-btn" type="submit">Отправить вопрос</button>
+            <p class="background-text">Нажимая на кнопку , вы соглашаетесь с политикой обработки персональных данных</p>
         </div>
         <div class="adapter">
-            <p class="one"><img src="images\vniz.svg" alt="vniz"> Чем VitrinaGram отличается от других сервисов?</p>
+            <p><img src="images\vniz.svg" alt="vniz"> Чем VitrinaGram отличается от других сервисов?</p>
             <br>
-            <p class="two"><img src="images\vniz.svg" alt="vniz"> Какие возможности кроме продаж в Телеграм есть у
+            <p><img src="images\vniz.svg" alt="vniz"> Какие возможности кроме продаж в Телеграм есть у
                 VitrinaGram?</p>
             <br>
-            <p class="free"><img src="images\vniz.svg" alt="vniz"> Можно ли поменять тарифный план после создания
+            <div class="active">
+                <p><img src="images\vniz.svg" alt="vniz">Как долго занимает процесс создания магазина?</p>
+                <br>
+                <p class="backgroud-active">Процесс создания магазина обычно занимает от 1 до 3 дней - все зависит от
+                    вашего количества товаров, подключаемого пакета и имеющегося энтузиазма!</p>
+            </div>
+            <p><img src="images\vniz.svg" alt="vniz"> Можно ли поменять тарифный план после создания
                 магазина?</p>
             <br>
-            <p class="four"><img src="images\vniz.svg" alt="vniz"> Безопасно ли передовать мои банковские данные?</p>
+            <p><img src="images\vniz.svg" alt="vniz"> Безопасно ли передовать мои банковские данные?</p>
         </div>
         <div class="information">
-            <img class="image" src="images\nazv.svg" alt="vitrina">
-            <p class="additional_information">ООО «Финекс Групп»<br>Юридический адрес:<br>125252, Москва, ул <br>
+            <img class="image" src="images\nazv2.png" alt="vitrina">
+            <div class="additional_information">
+                <p>ООО «Финекс Групп»</p>
+                Юридический адрес:<br>125252, Москва, ул <br>
                 Авиаконструктора <br> Микояна, д. 12, помещ./<br>этаж 24/1
-                /а1 ком. №14</p>
+                /а1 ком. №14
+            </div>
             <p class="nav__link_active">Навигация</p>
             <nav class="nav">
                 <a class="nav__link" href="#"><br>Тарифы</a>
@@ -172,12 +189,17 @@
             </nav>
             <p class="additional_information">ОГРН 1237700205302<br>ИНН 9714006533<br>КПП 771401001</p>
             <p class="nav__link_active">Контакты</p>
-            <p class="contacts">Телеграм<br>info@vitrinagram.ru<br>+7 (925) 701-65-40</p>
+            <nav class="contacts">
+                <a href="123">Телеграм</a>
+                <p>info@vitrinagram.ru
+                <p>+7 (925) 701-65-40</p>
+            </nav>
             <div class="footer-container">
                 <a href="#" class="footer-link">© 2024. Все права защищены</a>
                 <a href="#" class="footer-link">Договор оферты</a>
                 <a href="#" class="footer-link">Политика конфиденциальности</a>
             </div>
+            <a href="123"><img src="images\vvverh.svg" alt="Вверх"></a>
         </div>
     </footer>
 </body>
